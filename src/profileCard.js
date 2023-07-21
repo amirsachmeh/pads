@@ -1,5 +1,10 @@
-function ProfileCard() {
-    return <div>profile Card !!!</div>
+function ProfileCard({title,handle}) {
+    return (
+        <div>
+            <div>Title is {title}</div>
+            <div>Title is {handle}</div>
+        </div>
+    )
 
 }
 
