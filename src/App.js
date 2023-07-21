@@ -1,13 +1,12 @@
- import ProfileCard from './ProfileCard';
-
+import ProfileCard from "./ProfileCard";
  function App(){
     return (
         <div>
             <div> perdsonal  digital assistent</div>
 
-            <profileCard/>
-            <profileCard/>
-            <profileCard/>
+            <ProfileCard/>
+            <ProfileCard/>
+            <ProfileCard/>
         </div>
     );
  }
